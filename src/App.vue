@@ -72,22 +72,6 @@
             alt="Premium electronics mega banner"
           />
 
-          <div class="hero-floating">
-            <div class="hero-stat">
-              <strong>40%</strong>
-              <small>Weekly discounts</small>
-            </div>
-
-            <div class="hero-stat">
-              <strong>24H</strong>
-              <small>Fast delivery</small>
-            </div>
-
-            <div class="hero-stat">
-              <strong>500+</strong>
-              <small>Products</small>
-            </div>
-          </div>
         </div>
       </section>
 
