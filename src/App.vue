@@ -1358,13 +1358,13 @@ const subscribeUser = () => {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-  --primary: #0b4a8b;
-  --primary-dark: #073664;
+  --primary: #0a2347;
+  --primary-dark: #06162d;
   --accent: #ff3b30;
-  --blue: #0077ff;
+  --blue: #0a2347;
   --text: #151922;
   --muted: #6b7280;
   --light: #f6f8fb;
@@ -1388,7 +1388,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   background: #fff;
   color: var(--text);
   overflow-x: hidden;
@@ -1486,7 +1486,7 @@ button {
   overflow: hidden auto;
   padding: 6px 0 18px;
   scrollbar-width: thin;
-  scrollbar-color: rgba(11, 74, 139, 0.22) transparent;
+  scrollbar-color: rgba(10, 35, 71, 0.22) transparent;
 }
 
 .side-scroll-group::-webkit-scrollbar {
@@ -1494,7 +1494,7 @@ button {
 }
 
 .side-scroll-group::-webkit-scrollbar-thumb {
-  background: rgba(11, 74, 139, 0.22);
+  background: rgba(10, 35, 71, 0.22);
   border-radius: 999px;
 }
 
@@ -1818,7 +1818,7 @@ button {
 .shopify-banners-section {
   padding: 34px 0 22px;
   background:
-    radial-gradient(circle at 15% 15%, rgba(0, 119, 255, 0.08), transparent 28%),
+    radial-gradient(circle at 15% 15%, rgba(10, 35, 71, 0.08), transparent 28%),
     linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
 }
 
@@ -1888,21 +1888,21 @@ button {
 
 .banner-style-1 {
   background:
-    linear-gradient(135deg, rgba(8, 18, 34, 0.92), rgba(11, 74, 139, 0.7)),
+    linear-gradient(135deg, rgba(8, 18, 34, 0.92), rgba(10, 35, 71, 0.7)),
     linear-gradient(180deg, #eaf1fb, #ffffff);
   color: #fff;
 }
 
 .banner-style-2 {
   background:
-    radial-gradient(circle at 75% 15%, rgba(0, 119, 255, 0.2), transparent 28%),
+    radial-gradient(circle at 75% 15%, rgba(10, 35, 71, 0.2), transparent 28%),
     linear-gradient(145deg, #f8fbff, #eaf1f8);
 }
 
 .banner-style-3 {
   background:
     radial-gradient(circle at 20% 20%, rgba(255, 59, 48, 0.16), transparent 30%),
-    linear-gradient(145deg, #101827, #0b4a8b);
+    linear-gradient(145deg, #101827, #0a2347);
   color: #fff;
 }
 
@@ -2255,7 +2255,7 @@ button {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: rgba(11, 74, 139, 0.07);
+  background: rgba(10, 35, 71, 0.07);
   bottom: -45px;
   right: -35px;
 }
@@ -2291,7 +2291,7 @@ button {
   display: grid;
   place-items: center;
   transform: rotate(45deg);
-  background: linear-gradient(135deg, #0d8cff, #005fe8);
+  background: linear-gradient(135deg, #d71920 0%, #b3132a 52%, #7f1020 100%);
   color: #fff;
   font-size: 11px;
   font-weight: 500;
@@ -2299,7 +2299,7 @@ button {
   letter-spacing: 0.7px;
   text-align: center;
   text-transform: uppercase;
-  box-shadow: 0 8px 18px rgba(0, 95, 232, 0.22);
+  box-shadow: 0 10px 22px rgba(179, 19, 42, 0.28);
   pointer-events: none;
 }
 
@@ -2544,8 +2544,8 @@ button {
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.5px;
-  background: #0878dd;
-  box-shadow: none;
+  background: linear-gradient(135deg, #d71920 0%, #b3132a 52%, #7f1020 100%);
+  box-shadow: 0 10px 22px rgba(179, 19, 42, 0.22);
 }
 
 .product-grid-section .product-ribbon.out-stock {
@@ -2667,7 +2667,7 @@ button {
   overflow: hidden;
   border-radius: 34px;
   background:
-    radial-gradient(circle at 20% 15%, rgba(0, 119, 255, 0.34), transparent 28%),
+    radial-gradient(circle at 20% 15%, rgba(10, 35, 71, 0.34), transparent 28%),
     radial-gradient(circle at 80% 20%, rgba(255, 212, 0, 0.18), transparent 25%),
     linear-gradient(135deg, #061b3d, #0a3970 45%, #08111f);
   color: #fff;
@@ -3162,8 +3162,8 @@ button {
 
 .modern-hover-actions button:hover,
 .modern-hover-actions button.active {
-  background: #0b4a8b;
-  border-color: #0b4a8b;
+  background: #0a2347;
+  border-color: #0a2347;
   color: #fff;
 }
 
@@ -3246,7 +3246,7 @@ button {
   justify-content: center;
   overflow: hidden;
   background:
-    radial-gradient(circle at 28% 24%, rgba(11, 74, 139, 0.16), transparent 32%),
+    radial-gradient(circle at 28% 24%, rgba(10, 35, 71, 0.16), transparent 32%),
     linear-gradient(145deg, #f8fbff, #eef4fb);
 }
 
@@ -3275,7 +3275,7 @@ button {
   z-index: 3;
   border-radius: 999px;
   padding: 8px 13px;
-  background: #0b4a8b;
+  background: #0a2347;
   color: #fff;
   font-size: 11px;
   font-weight: 900;
@@ -3397,9 +3397,9 @@ button {
 }
 
 .quick-add-cart {
-  background: #0b4a8b;
+  background: #0a2347;
   color: #fff;
-  box-shadow: 0 18px 34px rgba(11, 74, 139, 0.22);
+  box-shadow: 0 18px 34px rgba(10, 35, 71, 0.22);
 }
 
 .quick-checkout {
@@ -4091,8 +4091,8 @@ button {
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.5px;
-  background: #0878dd;
-  box-shadow: none;
+  background: linear-gradient(135deg, #d71920 0%, #b3132a 52%, #7f1020 100%);
+  box-shadow: 0 10px 22px rgba(179, 19, 42, 0.22);
 }
 
 @media (max-width: 1199px) {
@@ -4743,7 +4743,7 @@ button {
 }
 
 .section-kicker {
-  color: #0077ff;
+  color: #0a2347;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.25px;
@@ -5201,7 +5201,7 @@ button {
 .modern-testimonials-section {
   padding: 32px 0 74px;
   background:
-    radial-gradient(circle at 15% 0%, rgba(0, 119, 255, 0.08), transparent 28%),
+    radial-gradient(circle at 15% 0%, rgba(10, 35, 71, 0.08), transparent 28%),
     linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
 }
 
@@ -5236,13 +5236,13 @@ button {
   right: -44px;
   top: -44px;
   border-radius: 50%;
-  background: rgba(0, 119, 255, 0.08);
+  background: rgba(10, 35, 71, 0.08);
 }
 
 .modern-testimonial-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 28px 75px rgba(15, 23, 42, 0.12);
-  border-color: rgba(0, 119, 255, 0.2);
+  border-color: rgba(10, 35, 71, 0.2);
 }
 
 .testimonial-quote-icon {
@@ -5286,7 +5286,7 @@ button {
   border-radius: 16px;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #0b4a8b, #0077ff);
+  background: linear-gradient(135deg, #0a2347, #0a2347);
   color: #fff;
   font-size: 15px;
   font-weight: 900;
@@ -5309,7 +5309,7 @@ button {
 /* MODERN FOOTER */
 .modern-footer {
   background:
-    radial-gradient(circle at 18% 12%, rgba(0, 119, 255, 0.16), transparent 28%),
+    radial-gradient(circle at 18% 12%, rgba(10, 35, 71, 0.16), transparent 28%),
     linear-gradient(135deg, #070b14 0%, #111827 54%, #05070b 100%);
   color: #fff;
   padding: 76px 0 26px;
@@ -5539,7 +5539,7 @@ button {
 .home-accessories-head .section-title,
 .product-section-head .section-title,
 .modern-testimonial-head .section-title {
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Red Hat Display', sans-serif !important;
   font-size: 27px !important;
   line-height: 1.15 !important;
   font-weight: 900 !important;
@@ -5569,16 +5569,16 @@ button {
   height: 34px;
   border-radius: 13px;
   background: linear-gradient(145deg, #f7faff, #eef4ff);
-  color: #0b4a8b;
-  box-shadow: inset 0 0 0 1px rgba(11, 74, 139, 0.08);
+  color: #0a2347;
+  box-shadow: inset 0 0 0 1px rgba(10, 35, 71, 0.08);
   transition: 0.25s ease;
 }
 
 .side-nav a:hover .nav-icon,
 .side-nav a.active .nav-icon {
-  background: linear-gradient(145deg, #0b4a8b, #0077ff);
+  background: linear-gradient(145deg, #0a2347, #0a2347);
   color: #ffffff;
-  box-shadow: 0 10px 24px rgba(0, 119, 255, 0.24);
+  box-shadow: 0 10px 24px rgba(10, 35, 71, 0.24);
 }
 
 
