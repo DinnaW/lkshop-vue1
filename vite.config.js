@@ -5,8 +5,7 @@ import { fileURLToPath, URL } from 'node:url'
 export default defineConfig({
   plugins: [vue()],
 
-  // Change this to your GitHub repository name
-  base: '/lkshop-vue/',
+  base: '/lkshop-vue1/',
 
   server: {
     host: true,
