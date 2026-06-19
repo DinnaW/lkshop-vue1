@@ -1361,10 +1361,10 @@ const subscribeUser = () => {
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-  --primary: #0a2347;
-  --primary-dark: #06162d;
+  --primary: #000068;
+  --primary-dark: #000044;
   --accent: #ff3b30;
-  --blue: #0a2347;
+  --blue: #000068;
   --text: #151922;
   --muted: #6b7280;
   --light: #f6f8fb;
@@ -1375,7 +1375,7 @@ const subscribeUser = () => {
   --sidebar-collapsed: 78px;
   --sidebar-expanded: 244px;
   --shadow: 0 18px 45px rgba(17, 24, 39, 0.08);
-  --premium-shadow: 0 35px 90px rgba(9, 38, 88, 0.22);
+  --premium-shadow: 0 35px 90px rgba(0, 0, 104, 0.22);
 }
 
 * {
@@ -1486,7 +1486,7 @@ button {
   overflow: hidden auto;
   padding: 6px 0 18px;
   scrollbar-width: thin;
-  scrollbar-color: rgba(10, 35, 71, 0.22) transparent;
+  scrollbar-color: rgba(0, 0, 104, 0.22) transparent;
 }
 
 .side-scroll-group::-webkit-scrollbar {
@@ -1494,7 +1494,7 @@ button {
 }
 
 .side-scroll-group::-webkit-scrollbar-thumb {
-  background: rgba(10, 35, 71, 0.22);
+  background: rgba(0, 0, 104, 0.22);
   border-radius: 999px;
 }
 
@@ -1818,7 +1818,7 @@ button {
 .shopify-banners-section {
   padding: 34px 0 22px;
   background:
-    radial-gradient(circle at 15% 15%, rgba(10, 35, 71, 0.08), transparent 28%),
+    radial-gradient(circle at 15% 15%, rgba(0, 0, 104, 0.08), transparent 28%),
     linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
 }
 
@@ -1888,21 +1888,21 @@ button {
 
 .banner-style-1 {
   background:
-    linear-gradient(135deg, rgba(8, 18, 34, 0.92), rgba(10, 35, 71, 0.7)),
+    linear-gradient(135deg, rgba(0, 0, 68, 0.92), rgba(0, 0, 104, 0.7)),
     linear-gradient(180deg, #eaf1fb, #ffffff);
   color: #fff;
 }
 
 .banner-style-2 {
   background:
-    radial-gradient(circle at 75% 15%, rgba(10, 35, 71, 0.2), transparent 28%),
+    radial-gradient(circle at 75% 15%, rgba(0, 0, 104, 0.2), transparent 28%),
     linear-gradient(145deg, #f8fbff, #eaf1f8);
 }
 
 .banner-style-3 {
   background:
     radial-gradient(circle at 20% 20%, rgba(255, 59, 48, 0.16), transparent 30%),
-    linear-gradient(145deg, #101827, #0a2347);
+    linear-gradient(145deg, #101827, #000068);
   color: #fff;
 }
 
@@ -2255,7 +2255,7 @@ button {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: rgba(10, 35, 71, 0.07);
+  background: rgba(0, 0, 104, 0.07);
   bottom: -45px;
   right: -35px;
 }
@@ -2299,13 +2299,11 @@ button {
   letter-spacing: 0.7px;
   text-align: center;
   text-transform: uppercase;
-  box-shadow: 0 10px 22px rgba(179, 19, 42, 0.28);
   pointer-events: none;
 }
 
 .product-ribbon.out-stock {
   background: linear-gradient(135deg, #111827, #64748b);
-  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.2);
 }
 
 .product-actions {
@@ -2545,7 +2543,6 @@ button {
   font-weight: 500;
   letter-spacing: 0.5px;
   background: linear-gradient(135deg, #d71920 0%, #b3132a 52%, #7f1020 100%);
-  box-shadow: 0 10px 22px rgba(179, 19, 42, 0.22);
 }
 
 .product-grid-section .product-ribbon.out-stock {
@@ -2641,8 +2638,8 @@ button {
 }
 
 .product-grid-section .add-btn:hover {
-  border-color: #0b74de;
-  background: #0b74de;
+  border-color: #000068;
+  background: #000068;
   color: #fff;
 }
 
@@ -2667,9 +2664,9 @@ button {
   overflow: hidden;
   border-radius: 34px;
   background:
-    radial-gradient(circle at 20% 15%, rgba(10, 35, 71, 0.34), transparent 28%),
+    radial-gradient(circle at 20% 15%, rgba(0, 0, 104, 0.34), transparent 28%),
     radial-gradient(circle at 80% 20%, rgba(255, 212, 0, 0.18), transparent 25%),
-    linear-gradient(135deg, #061b3d, #0a3970 45%, #08111f);
+    linear-gradient(135deg, #000044, #000085 45%, #08111f);
   color: #fff;
   padding: 42px;
   display: grid;
@@ -3162,8 +3159,8 @@ button {
 
 .modern-hover-actions button:hover,
 .modern-hover-actions button.active {
-  background: #0a2347;
-  border-color: #0a2347;
+  background: #000068;
+  border-color: #000068;
   color: #fff;
 }
 
@@ -3176,7 +3173,7 @@ button {
   position: absolute;
   inset: 0;
   z-index: 2;
-  background: linear-gradient(180deg, rgba(255,255,255,0), rgba(11,74,139,0.06));
+  background: linear-gradient(180deg, rgba(255,255,255,0), rgba(0, 0, 104, 0.06));
   opacity: 0;
   pointer-events: none;
   transition: 0.28s ease;
@@ -3246,7 +3243,7 @@ button {
   justify-content: center;
   overflow: hidden;
   background:
-    radial-gradient(circle at 28% 24%, rgba(10, 35, 71, 0.16), transparent 32%),
+    radial-gradient(circle at 28% 24%, rgba(0, 0, 104, 0.16), transparent 32%),
     linear-gradient(145deg, #f8fbff, #eef4fb);
 }
 
@@ -3275,7 +3272,7 @@ button {
   z-index: 3;
   border-radius: 999px;
   padding: 8px 13px;
-  background: #0a2347;
+  background: #000068;
   color: #fff;
   font-size: 11px;
   font-weight: 900;
@@ -3397,9 +3394,9 @@ button {
 }
 
 .quick-add-cart {
-  background: #0a2347;
+  background: #000068;
   color: #fff;
-  box-shadow: 0 18px 34px rgba(10, 35, 71, 0.22);
+  box-shadow: 0 18px 34px rgba(0, 0, 104, 0.22);
 }
 
 .quick-checkout {
@@ -3665,7 +3662,6 @@ button {
   letter-spacing: 0.7px;
   text-align: center;
   text-transform: uppercase;
-  box-shadow: 0 8px 18px rgba(255, 107, 0, 0.2);
   pointer-events: none;
 }
 
@@ -3817,7 +3813,7 @@ button {
   min-height: 24px;
   padding: 4px 9px;
   border-radius: 999px;
-  background: #1477db;
+  background: #000068;
   color: #fff;
   font-size: 10px;
   font-weight: 700;
@@ -4092,7 +4088,6 @@ button {
   font-weight: 500;
   letter-spacing: 0.5px;
   background: linear-gradient(135deg, #d71920 0%, #b3132a 52%, #7f1020 100%);
-  box-shadow: 0 10px 22px rgba(179, 19, 42, 0.22);
 }
 
 @media (max-width: 1199px) {
@@ -4743,7 +4738,7 @@ button {
 }
 
 .section-kicker {
-  color: #0a2347;
+  color: #000068;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 1.25px;
@@ -4816,14 +4811,14 @@ button {
 .bento-card-1 .bento-soft-overlay,
 .bento-card-3 .bento-soft-overlay {
   background:
-    linear-gradient(90deg, rgba(9, 22, 42, 0.78) 0%, rgba(9, 22, 42, 0.46) 40%, rgba(9, 22, 42, 0.05) 78%),
+    linear-gradient(90deg, rgba(0, 0, 68, 0.78) 0%, rgba(0, 0, 68, 0.46) 40%, rgba(0, 0, 68, 0.05) 78%),
     linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.16));
 }
 
 .bento-card-4 .bento-soft-overlay,
 .bento-card-5 .bento-soft-overlay {
   background:
-    linear-gradient(90deg, rgba(9, 22, 42, 0.72) 0%, rgba(9, 22, 42, 0.34) 42%, rgba(9, 22, 42, 0.04) 78%),
+    linear-gradient(90deg, rgba(0, 0, 68, 0.72) 0%, rgba(0, 0, 68, 0.34) 42%, rgba(0, 0, 68, 0.04) 78%),
     linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.18));
 }
 
@@ -4948,7 +4943,7 @@ button {
 
 .bento-copy button:hover {
   transform: translateY(-2px);
-  background: #0b74de;
+  background: #000068;
   color: #fff;
 }
 
@@ -5201,7 +5196,7 @@ button {
 .modern-testimonials-section {
   padding: 32px 0 74px;
   background:
-    radial-gradient(circle at 15% 0%, rgba(10, 35, 71, 0.08), transparent 28%),
+    radial-gradient(circle at 15% 0%, rgba(0, 0, 104, 0.08), transparent 28%),
     linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
 }
 
@@ -5236,13 +5231,13 @@ button {
   right: -44px;
   top: -44px;
   border-radius: 50%;
-  background: rgba(10, 35, 71, 0.08);
+  background: rgba(0, 0, 104, 0.08);
 }
 
 .modern-testimonial-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 28px 75px rgba(15, 23, 42, 0.12);
-  border-color: rgba(10, 35, 71, 0.2);
+  border-color: rgba(0, 0, 104, 0.2);
 }
 
 .testimonial-quote-icon {
@@ -5286,7 +5281,7 @@ button {
   border-radius: 16px;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #0a2347, #0a2347);
+  background: linear-gradient(135deg, #000068, #000068);
   color: #fff;
   font-size: 15px;
   font-weight: 900;
@@ -5309,7 +5304,7 @@ button {
 /* MODERN FOOTER */
 .modern-footer {
   background:
-    radial-gradient(circle at 18% 12%, rgba(10, 35, 71, 0.16), transparent 28%),
+    radial-gradient(circle at 18% 12%, rgba(0, 0, 104, 0.16), transparent 28%),
     linear-gradient(135deg, #070b14 0%, #111827 54%, #05070b 100%);
   color: #fff;
   padding: 76px 0 26px;
@@ -5568,17 +5563,19 @@ button {
   width: 34px;
   height: 34px;
   border-radius: 13px;
-  background: linear-gradient(145deg, #f7faff, #eef4ff);
-  color: #0a2347;
-  box-shadow: inset 0 0 0 1px rgba(10, 35, 71, 0.08);
+  background: #ffffff;
+  color: #000068;
+  border: 1.6px solid #000068;
+  box-shadow: none;
   transition: 0.25s ease;
 }
 
 .side-nav a:hover .nav-icon,
 .side-nav a.active .nav-icon {
-  background: linear-gradient(145deg, #0a2347, #0a2347);
-  color: #ffffff;
-  box-shadow: 0 10px 24px rgba(10, 35, 71, 0.24);
+  background: #ffffff;
+  color: #000068;
+  border-color: #000068;
+  box-shadow: none;
 }
 
 
@@ -5648,6 +5645,246 @@ button {
   .modern-hover-actions {
     opacity: 1;
     transform: translateY(0) scale(1);
+  }
+}
+
+
+
+/* REQUESTED FINAL THEME OVERRIDES - navy #000068, clean ribbons, outlined sidebar icons, balanced spacing */
+:root {
+  --primary: #000068 !important;
+  --primary-dark: #000044 !important;
+  --blue: #000068 !important;
+  --premium-shadow: 0 26px 70px rgba(0, 0, 104, 0.14) !important;
+}
+
+/* Keep the requested navy consistent where older direct blue rules may still appear */
+.category-strip,
+.wishlist-count,
+.checkout-btn,
+.footer-socials a:hover,
+.footer-newsletter-form button,
+.quick-add-cart,
+.quick-view-badge,
+.modern-avatar,
+.chip:hover,
+.chip.active,
+.product-grid-section .add-btn:hover,
+.curated-wide-copy span,
+.mosaic-copy span,
+.bento-copy button:hover,
+.banner-copy.bento-copy button:hover {
+  background: #000068 !important;
+  border-color: #000068 !important;
+}
+
+.price strong,
+.view-link,
+.section-kicker,
+.quick-view-kicker,
+.quick-view-price-row strong,
+.quick-view-meta-grid i,
+.drawer-item p,
+.curated-product-info p strong,
+.side-nav a:hover,
+.side-nav a.active {
+  color: #000068 !important;
+}
+
+/* Product ribbons: premium red, no drop shadows */
+.product-ribbon,
+.product-ribbon.out-stock,
+.product-grid-section .product-ribbon,
+.product-grid-section .product-ribbon.out-stock,
+.home-accessories-section .product-ribbon,
+.orange-mini-badge,
+.promo-badge,
+.quick-view-badge {
+  box-shadow: none !important;
+  filter: none !important;
+  text-shadow: none !important;
+}
+
+.product-ribbon,
+.product-grid-section .product-ribbon,
+.home-accessories-section .product-ribbon,
+.orange-mini-badge {
+  background: linear-gradient(135deg, #e11d2e 0%, #b50f24 52%, #810016 100%) !important;
+}
+
+.product-ribbon.out-stock,
+.product-grid-section .product-ribbon.out-stock {
+  background: linear-gradient(135deg, #111827 0%, #4b5563 100%) !important;
+}
+
+/* Sidebar icons: outlined navy only, no blue-filled icon states */
+.side-nav {
+  box-shadow: none !important;
+}
+
+.side-nav.expanded {
+  box-shadow: 14px 0 38px rgba(15, 23, 42, 0.055) !important;
+}
+
+.side-nav a,
+.side-nav.expanded a {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.side-nav a:hover,
+.side-nav a.active {
+  background: rgba(0, 0, 104, 0.055) !important;
+  color: #000068 !important;
+}
+
+.side-nav a.active::before {
+  background: #000068 !important;
+}
+
+.nav-icon,
+.categories-sidebar.expanded .nav-icon {
+  width: 36px !important;
+  height: 36px !important;
+  border: 1.6px solid #000068 !important;
+  border-radius: 13px !important;
+  background: #ffffff !important;
+  color: #000068 !important;
+  box-shadow: none !important;
+}
+
+.side-nav a:hover .nav-icon,
+.side-nav a.active .nav-icon {
+  background: #ffffff !important;
+  color: #000068 !important;
+  border-color: #000068 !important;
+  box-shadow: none !important;
+}
+
+.sidebar-toggle i {
+  color: #000068 !important;
+}
+
+/* Cleaner rhythm and balanced gaps */
+.hero-section {
+  padding: 14px 0 18px !important;
+}
+
+.category-strip {
+  margin: 0 !important;
+}
+
+.section-block,
+.product-grid-section,
+.shopify-banners-section,
+.feature-showcase-section,
+.home-accessories-section,
+.modern-testimonials-section {
+  padding-top: 52px !important;
+  padding-bottom: 58px !important;
+}
+
+.product-section-head,
+.feature-showcase-head,
+.home-accessories-head,
+.modern-testimonial-head,
+.shopify-banners-head {
+  margin-bottom: 28px !important;
+  padding-bottom: 18px !important;
+}
+
+.product-chip-row {
+  gap: 18px !important;
+  margin-bottom: 34px !important;
+}
+
+.products-grid,
+.product-section-grid,
+.home-accessories-products,
+.feature-showcase-grid,
+.modern-testimonial-grid {
+  gap: 20px !important;
+}
+
+.appliance-banner-section {
+  padding: 18px 0 28px !important;
+}
+
+.home-accessories-image-banner-section {
+  padding: 10px 0 24px !important;
+}
+
+#best-week.product-grid-section {
+  padding-top: 44px !important;
+  margin-top: 0 !important;
+}
+
+.feature-showcase-section + .home-accessories-section,
+.home-accessories-image-banner-section + #best-week,
+#electronics + .feature-showcase-section {
+  margin-top: 0 !important;
+}
+
+.product-grid-section .product-card,
+.home-accessories-section .product-card {
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.055) !important;
+}
+
+.product-grid-section .product-card:hover,
+.home-accessories-section .product-card:hover,
+.feature-showcase-card:hover,
+.modern-testimonial-card:hover {
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.09) !important;
+}
+
+@media (max-width: 991px) {
+  .side-nav,
+  .side-nav.expanded {
+    box-shadow: 0 -10px 28px rgba(15, 23, 42, 0.07) !important;
+  }
+
+  .side-nav a:hover,
+  .side-nav a.active {
+    background: transparent !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-block,
+  .product-grid-section,
+  .shopify-banners-section,
+  .feature-showcase-section,
+  .home-accessories-section,
+  .modern-testimonials-section {
+    padding-top: 38px !important;
+    padding-bottom: 46px !important;
+  }
+
+  .product-section-head,
+  .feature-showcase-head,
+  .home-accessories-head,
+  .modern-testimonial-head,
+  .shopify-banners-head {
+    margin-bottom: 22px !important;
+    padding-bottom: 16px !important;
+  }
+
+  .product-chip-row {
+    gap: 10px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .products-grid,
+  .product-section-grid,
+  .home-accessories-products,
+  .feature-showcase-grid,
+  .modern-testimonial-grid {
+    gap: 16px !important;
+  }
+
+  .appliance-banner-section {
+    padding: 14px 0 22px !important;
   }
 }
 
