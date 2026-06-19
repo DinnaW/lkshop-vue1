@@ -5888,4 +5888,29 @@ button {
   }
 }
 
+
+/* FINAL FIX: Move Best of The Week section upward + visible active category text */
+#best-week.product-grid-section,
+.home-accessories-image-banner-section + #best-week.product-grid-section {
+  margin-top: -72px !important;
+  padding-top: 28px !important;
+  position: relative;
+  z-index: 2;
+}
+
+.chip:hover,
+.chip.active,
+.product-chip-row .chip:hover,
+.product-chip-row .chip.active {
+  color: #ffffff !important;
+}
+
+@media (max-width: 767px) {
+  #best-week.product-grid-section,
+  .home-accessories-image-banner-section + #best-week.product-grid-section {
+    margin-top: -34px !important;
+    padding-top: 24px !important;
+  }
+}
+
 </style>
